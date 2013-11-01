@@ -20,8 +20,8 @@ alipay
   	c := Config{
 	  	Partner: `2088011557490424`,   // 支付宝合作者身份 ID
 	  	Key: `j1qkume9rtwitq869ndmojf37fk4xz2m`, // 支付宝交易安全校验码
-	  }
+	}
 	  
-	  // 输出的是 html 页面，会自动跳转到支付界面
-	  NewPage(c, r, os.Stdout)
+	// 输出的是 html 页面，会自动跳转到支付界面
+	NewPage(c, r, os.Stdout)
 	  
