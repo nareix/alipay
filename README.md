@@ -3,6 +3,8 @@ alipay
 
 支付宝集成接口的 golang 实现
 
+[![Build Status](https://drone.io/github.com/go-av/alipay/status.png)](https://drone.io/github.com/go-av/alipay/latest)
+
 示例：即时到账收款接口
 ======
 
